@@ -1,0 +1,130 @@
+body {
+    background-image: url('/assets/images/space_background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center; 
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden; 
+}
+
+.wrap-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+.start-button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+    background-color: lightgray;
+    color: gray;
+    border-radius: 10px;
+    box-shadow: 2px;
+    cursor: pointer;
+    font-family: 'ArcadeR';
+    margin: 25px auto;
+    display: block;
+    width: 500px;
+    height: 100px;
+    
+}
+
+.pacman-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: gray;
+    font-family: 'ArcadeR';
+    width: 500px;
+    height: 100px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.score-container{
+    text-align: center;
+    padding: 20px;
+    color: gray;
+    font-family: 'ArcaderR';
+    font-size: 20px;
+    
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.pac-dot {
+    background-color: green;   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-image: url('/assets/images/blinky.png');
+    background-size: cover;
+}
+
+.pinky {
+    background-image: url('/assets/images/pinky.png');
+    background-size: cover;
+}
+
+.inky {
+    background-image: url('/assets/images/inky.png');
+    background-size: cover;
+}
+
+.clyde {
+    background-image: url('/assets/images/clyde.webp');
+    background-size: cover;    
+}
+
+.pac-man {
+    background-image: url('/assets/images/pacman1.gif');
+    background-size: cover;
+}
+
+
+.pac-man-up {
+    transform: rotate(-90deg);
+}
+.pac-man-right {
+    transform: rotate(0deg);
+}
+.pac-man-down {
+    transform: rotate(90deg);
+}
+.pac-man-left {
+    transform: rotate(180deg);
+}
+.scared-ghost {
+    background-color: aquamarine;
+}
