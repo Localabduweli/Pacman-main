@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/images/space_background.gif');
+    background-image: url('../images/space_background.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -88,27 +88,27 @@ body {
 }
 
 .blinky {
-    background-image: url('/assets/images/blinky.png');
+    background-image: url('../images/blinky.png');
     background-size: cover;
 }
 
 .pinky {
-    background-image: url('/assets/images/pinky.png');
+    background-image: url('../images/pinky.png');
     background-size: cover;
 }
 
 .inky {
-    background-image: url('/assets/images/inky.png');
+    background-image: url('../images/inky.png');
     background-size: cover;
 }
 
 .clyde {
-    background-image: url('/assets/images/clyde.webp');
+    background-image: url('../images/clyde.webp');
     background-size: cover;    
 }
 
 .pac-man {
-    background-image: url('/assets/images/pacman1.gif');
+    background-image: url('../images/pacman1.gif');
     background-size: cover;
 }
 
